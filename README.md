@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="images/hashira_cactus.png" width="300" height="300">
-</p>
 
-# HASHIRA: Sensei virtual de documentación
+
+# Chatbot: Usando LLMs y langchain
 
 ## **Descripción**
 
-El objetivo principal de este proyecto es facilitar el acceso a la información documentada en varios repositorios de GitHub, a través de un chatbot interactivo. Los usuarios pueden hacer preguntas al chatbot, que buscará la respuesta en la documentación extraída.
-
-El nombre HASHIRA se inspira en la serie de anime "Demon Slayer". Los Hashiras son los espadachines más fuertes y experimentados del Cuerpo de Asesinos de Demonios, cada uno especializado en un estilo de lucha. De manera similar, este proyecto aspira a ser un sistema de alto rendimiento y especializado, que proporcione respuestas precisas basadas en la documentación existente.
+Este proyecto usa LLMs de hugging face asi como encadenamientos de langchain para dar una experiencia más creíble a la hora de usar y consultar el chatbot. Este chatbot se especializa en la documentación de huggingface. Se puede hacer consultas alñ¡ respecto.
 
 ## **Configuración**
 
@@ -79,15 +75,3 @@ python hashira/ai_conversation.py
 ```
 
 Recuerde reemplazar "myenv" con el nombre que desee para su entorno.
-
-
-## **Contribuciones**
-
-Este proyecto es de código abierto, y apreciamos cualquier contribución. Estamos particularmente interesados en las siguientes mejoras:
-
-- La capacidad de ejecutar el proyecto con otros Modelos de Lenguaje de Máquina (LLMs).
-- Conectividad con otras bases de datos vectoriales como Faiss o Weaviate.
-- Adición de una interfaz de usuario y alojamiento en Hugging Face Hub Spaces.
-- La capacidad de trabajar con todo el código abierto, incluyendo LLMs de Hugging Face Hub.
-
-No hay pautas específicas para contribuir, sólo te pedimos que nos ayudes a hacer de este proyecto algo más útil y eficiente. ¡Gracias por tu apoyo!
